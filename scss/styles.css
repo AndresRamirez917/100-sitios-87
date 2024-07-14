@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 30px;
+  overflow: auto;
+}
+
+a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #000;
+}
+
+ul {
+  list-style: none;
+}
+
+.p-justify {
+  text-align: justify;
+}
+
+.navbar ul li a:hover,
+.navbar ul li a.active {
+  color: violet;
+}
+
+.subtitle {
+  font-size: 2rem;
+  text-align: left;
+  font-weight: 300;
+  margin: 2rem 0;
+}
+
+.title {
+  font-size: 3rem;
+  text-align: left;
+  font-weight: 300;
+  margin: 2rem 0;
+}
+
+.flex {
+  display: flex;
+  flex: 1;
+  gap: 50px;
+}
+
+.btn {
+  display: block;
+  padding: 10px 20px;
+  text-align: center;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-1 {
+  background: blue;
+}
+
+.btn-1:hover {
+  background: rgb(73, 73, 247);
+}
+
+.btn-2 {
+  background: orangered;
+}
+
+.btn-2:hover {
+  background: rgb(246, 116, 68);
+}
+
+.btn-3 {
+  display: block;
+  padding: 10px 20px;
+  text-align: center;
+  color: orangered;
+  border: 1px solid orangered;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-3:hover {
+  background: yellow;
+}
+
+form .form-group {
+  margin-bottom: 1rem;
+}
+form .form.control {
+  display: block;
+  padding: 1rem;
+  border-radius: 4px;
+}
+form button {
+  width: 100%;
+}
+
+#contact form .flexbox {
+  flex: 1;
+}
+
+#footer {
+  text-align: center;
+  padding: 3rem 0;
+}/*# sourceMappingURL=styles.css.map */
