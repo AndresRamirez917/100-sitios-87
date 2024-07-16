@@ -37,9 +37,9 @@ ul {
 }
 
 .subtitle {
-  font-size: 2rem;
+  font-size: 1.5rem;
   text-align: left;
-  font-weight: 300;
+  font-weight: 500;
   margin: 2rem 0;
 }
 
@@ -116,12 +116,36 @@ form button {
 }
 #showcase .showcase-row .flexbox-1 {
   background: url("/img/illustration-01.jpg");
+  padding: 2rem;
+}
+#showcase .showcase-row .flexbox-1 a {
+  margin-top: 17rem;
+}
+#showcase .showcase-row .flexbox-1 h2 {
+  margin-top: 1rem;
+  color: #fff;
 }
 #showcase .showcase-row .flexbox-2 {
   background: url("/img/illustration-02.jpg");
+  padding: 2rem;
+}
+#showcase .showcase-row .flexbox-2 a {
+  margin-top: 17rem;
+}
+#showcase .showcase-row .flexbox-2 h2 {
+  margin-top: 1rem;
+  color: #fff;
 }
 #showcase .showcase-row .flexbox-3 {
   background: url("/img/illustration-03.png");
+  padding: 2rem;
+}
+#showcase .showcase-row .flexbox-3 a {
+  margin-top: 17rem;
+}
+#showcase .showcase-row .flexbox-3 h2 {
+  margin-top: 1rem;
+  color: #fff;
 }
 #showcase .showcase-row .flexbox-1, #showcase .showcase-row .flexbox-2, #showcase .showcase-row .flexbox-3 {
   background-position: center;
@@ -152,6 +176,7 @@ form button {
 }
 #panels2 .panel-left2 {
   flex: 3;
+  margin-bottom: 2rem;
 }
 #panels2 .panel-left2 img {
   width: 50%;

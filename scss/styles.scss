@@ -40,9 +40,9 @@ ul {
 }
 
 .subtitle {
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-align: left;
-    font-weight: 300;
+    font-weight: 500;
     margin: 2rem 0;
 }
 
@@ -125,13 +125,37 @@ form {
     .showcase-row {
         .flexbox-1 {
             background: url("/img/illustration-01.jpg");
+            padding: 2rem;
+            a {
+                margin-top: 17rem;
+            }
+            h2 {
+                margin-top: 1rem;
+                color: #fff;
+            }
         }
         .flexbox-2 {
             background: url("/img/illustration-02.jpg");
+            padding: 2rem;
+            a {
+                margin-top: 17rem;
+            }
+            h2 {
+                margin-top: 1rem;
+                color: #fff;
+            }
            
         }
         .flexbox-3 {
             background: url("/img/illustration-03.png");
+            padding: 2rem;
+            a {
+                margin-top: 17rem;
+            }
+            h2 {
+                margin-top: 1rem;
+                color: #fff;
+            }
         }
         .flexbox-1, .flexbox-2, .flexbox-3 {
                 background-position: center;
@@ -175,6 +199,7 @@ form {
     margin: 0 auto;
     .panel-left2 {
         flex: 3;
+        margin-bottom: 2rem;
             img {
                 width: 50%;
                 height: 60%;
