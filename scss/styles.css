@@ -120,6 +120,12 @@ form button {
 #panels .panel-left .flexbox img {
   width: 50%;
 }
+#panels .panel-rigth .panel-rigth-content .recent-post-flex {
+  flex-direction: column;
+}
+#panels .panel-rigth .panel-rigth-content .recent-post-flex img {
+  width: 20%;
+}
 
 #contact form .flexbox {
   flex: 1;

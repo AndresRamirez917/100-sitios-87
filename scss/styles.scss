@@ -130,6 +130,16 @@ form {
             }
         }
     }
+    .panel-rigth {
+        .panel-rigth-content {
+            .recent-post-flex {
+                flex-direction: column;
+                img {
+                    width: 20%;
+                }
+            }
+        }
+    }
 }
 
 //contact
