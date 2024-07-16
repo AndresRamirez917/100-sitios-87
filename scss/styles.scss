@@ -118,18 +118,41 @@ form {
 //     max-width: 100%;
 // }
 
+//showcase
+#showcase {
+    width: 90%;
+    margin: 0 auto;
+    .showcase-row {
+        .flexbox-1 {
+            background: url("/img/illustration-01.jpg");
+        }
+        .flexbox-2 {
+            background: url("/img/illustration-02.jpg");
+           
+        }
+        .flexbox-3 {
+            background: url("/img/illustration-03.png");
+        }
+        .flexbox-1, .flexbox-2, .flexbox-3 {
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                width: 30%;
+                height: 70dvh;
+
+        }
+    }
+}
+
 //panels
 #panels {
     width: 90%;
     margin: 0 auto;
     .panel-left {
-        img {
-            width: 10%;
-        }
-  
+
         .flexbox {
             img {
-                width: 50%;
+                width: 100%;
             }
         }
     }

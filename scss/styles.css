@@ -110,15 +110,33 @@ form button {
   width: 100%;
 }
 
+#showcase {
+  width: 90%;
+  margin: 0 auto;
+}
+#showcase .showcase-row .flexbox-1 {
+  background: url("/img/illustration-01.jpg");
+}
+#showcase .showcase-row .flexbox-2 {
+  background: url("/img/illustration-02.jpg");
+}
+#showcase .showcase-row .flexbox-3 {
+  background: url("/img/illustration-03.png");
+}
+#showcase .showcase-row .flexbox-1, #showcase .showcase-row .flexbox-2, #showcase .showcase-row .flexbox-3 {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 30%;
+  height: 70dvh;
+}
+
 #panels {
   width: 90%;
   margin: 0 auto;
 }
-#panels .panel-left img {
-  width: 10%;
-}
 #panels .panel-left .flexbox img {
-  width: 50%;
+  width: 100%;
 }
 #panels .panel-rigth .panel-rigth-content .recent-post-flex {
   flex-direction: column;
