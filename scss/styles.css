@@ -114,8 +114,8 @@ form button {
   width: 90%;
   margin: 0 auto;
 }
-#panels .panel-left {
-  flex-wrap: nowrap;
+#panels .panel-left img {
+  width: 10%;
 }
 #panels .panel-left .flexbox img {
   width: 50%;
@@ -124,7 +124,30 @@ form button {
   flex-direction: column;
 }
 #panels .panel-rigth .panel-rigth-content .recent-post-flex img {
-  width: 20%;
+  width: 30%;
+  margin-bottom: 2rem;
+}
+
+#panels2 {
+  width: 85%;
+  margin: 0 auto;
+}
+#panels2 .panel-left2 {
+  flex: 3;
+}
+#panels2 .panel-left2 img {
+  width: 50%;
+  height: 60%;
+}
+#panels2 .panel-rigth2 {
+  flex: 1;
+}
+#panels2 .panel-rigth2 .panel-rigth-content .recent-post-flex {
+  flex-direction: column;
+}
+#panels2 .panel-rigth2 .panel-rigth-content .recent-post-flex img {
+  width: 30%;
+  margin-bottom: 2rem;
 }
 
 #contact form .flexbox {
