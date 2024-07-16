@@ -76,6 +76,8 @@ ul {
 
 .btn-2 {
   background: orangered;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
 .btn-2:hover {
