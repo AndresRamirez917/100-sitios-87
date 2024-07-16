@@ -96,6 +96,7 @@ ul {
 
 .btn-3:hover {
   background: yellow;
+  border: none;
 }
 
 form .form-group {
@@ -155,12 +156,28 @@ form button {
   height: 70dvh;
 }
 
+#banner-3 {
+  width: 90%;
+  padding: 2rem 0;
+  text-align: center;
+  margin: 0 auto;
+}
+#banner-3 img {
+  width: 100%;
+}
+
 #panels {
   width: 90%;
   margin: 0 auto;
 }
 #panels .panel-left .flexbox img {
   width: 100%;
+}
+#panels .panel-left .flexbox .btn {
+  margin: 1rem 0;
+}
+#panels .panel-left .flexbox p {
+  margin: 1rem 0;
 }
 #panels .panel-rigth .panel-rigth-content .recent-post-flex {
   flex-direction: column;

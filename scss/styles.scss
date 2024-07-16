@@ -98,6 +98,7 @@ ul {
 
 .btn-3:hover {
     background: yellow;
+    border: none;
 }
 
 form {
@@ -168,6 +169,19 @@ form {
     }
 }
 
+#banner-3 {
+    width: 90%;
+    padding: 2rem 0;
+    text-align: center;
+    margin: 0 auto;
+        img {
+            width: 100%;
+
+        }
+    
+
+}
+
 //panels
 #panels {
     width: 90%;
@@ -177,6 +191,12 @@ form {
         .flexbox {
             img {
                 width: 100%;
+            }
+            .btn {
+                margin: 1rem 0;
+            }
+            p {
+                margin: 1rem 0;
             }
         }
     }
