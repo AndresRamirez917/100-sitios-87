@@ -110,6 +110,17 @@ form button {
   width: 100%;
 }
 
+#panels {
+  width: 90%;
+  margin: 0 auto;
+}
+#panels .panel-left {
+  flex-wrap: nowrap;
+}
+#panels .panel-left .flexbox img {
+  width: 50%;
+}
+
 #contact form .flexbox {
   flex: 1;
 }

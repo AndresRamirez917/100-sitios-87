@@ -118,6 +118,20 @@ form {
 //     max-width: 100%;
 // }
 
+//panels
+#panels {
+    width: 90%;
+    margin: 0 auto;
+    .panel-left {
+        flex-wrap: nowrap;
+        .flexbox {
+            img {
+                width: 50%;
+            }
+        }
+    }
+}
+
 //contact
 #contact {
     form {
