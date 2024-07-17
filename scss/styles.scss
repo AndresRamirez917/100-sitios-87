@@ -121,7 +121,7 @@ form {
 
 //mainheader
 #mainheader {
-    width: 90%;
+    width: 87%;
     margin: 0 auto;
     .banner-1 {
         img {
@@ -152,6 +152,17 @@ form {
                   }
                 }
             }
+        }
+    }
+    .navbar {
+    
+        padding: 2rem 0;
+        ul {
+            display: flex;
+        }
+        li {
+            text-align: left;
+            margin-left: 1rem;
         }
     }
 }

@@ -112,7 +112,7 @@ form button {
 }
 
 #mainheader {
-  width: 90%;
+  width: 87%;
   margin: 0 auto;
 }
 #mainheader .banner-1 img {
@@ -147,6 +147,16 @@ form button {
 #mainheader .banner-2 .banner-2-flex .subnav .form-inline .btn-outline-dark {
   width: 50px;
   height: 40px;
+}
+#mainheader .navbar {
+  padding: 2rem 0;
+}
+#mainheader .navbar ul {
+  display: flex;
+}
+#mainheader .navbar li {
+  text-align: left;
+  margin-left: 1rem;
 }
 
 #showcase {
