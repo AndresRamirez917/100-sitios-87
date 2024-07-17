@@ -119,6 +119,43 @@ form {
 //     max-width: 100%;
 // }
 
+//mainheader
+#mainheader {
+    width: 90%;
+    margin: 0 auto;
+    .banner-1 {
+        img {
+            width: 100%;
+            margin: 1rem 0;
+        }
+    }
+    .banner-2 {
+        width: 95%;
+        margin: 0 auto;
+        .banner-2-flex {
+            justify-content: space-between;
+            .subnav {
+                text-align: end;
+                margin-top: 1rem;
+                .form-inline {
+                    display: inline;
+                    input {
+                        padding: 10px;
+                    }
+                    ::placeholder {
+                        text-align: left;
+                        font-family: "Montserrat", sans-serif;
+                    }
+                  .btn-outline-dark {
+                    width: 50px;
+                    height: 40px;
+                  }
+                }
+            }
+        }
+    }
+}
+
 //showcase
 #showcase {
     width: 90%;
