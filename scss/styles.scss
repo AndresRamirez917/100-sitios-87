@@ -260,6 +260,23 @@ form {
             }
         }
     }
+    .panel-rigth {
+        .panel-rigth-content {
+            h2 {
+                margin-bottom: 1rem;
+                font-weight: 300;
+            }
+            .categories {
+                margin: 1rem 0;
+            }
+            .list-categories {
+                padding: 1rem;
+                li {
+                    margin-bottom: .5rem;
+                }
+            }
+        }
+    }
 }
 
 //panels

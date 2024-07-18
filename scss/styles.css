@@ -236,6 +236,19 @@ form button {
   width: 30%;
   margin-bottom: 2rem;
 }
+#panels .panel-rigth .panel-rigth-content h2 {
+  margin-bottom: 1rem;
+  font-weight: 300;
+}
+#panels .panel-rigth .panel-rigth-content .categories {
+  margin: 1rem 0;
+}
+#panels .panel-rigth .panel-rigth-content .list-categories {
+  padding: 1rem;
+}
+#panels .panel-rigth .panel-rigth-content .list-categories li {
+  margin-bottom: 0.5rem;
+}
 
 #panels2 {
   width: 85%;
