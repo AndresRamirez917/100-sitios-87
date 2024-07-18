@@ -279,6 +279,13 @@ form button {
   text-align: justify;
   margin-bottom: 1rem;
 }
+#panels2 .panel-left2 .subtitle {
+  font-size: 3rem;
+  font-weight: 300;
+}
+#panels2 .panel-left2 .article-img {
+  width: 80%;
+}
 #panels2 .panel-rigth2 {
   flex: 1;
 }
