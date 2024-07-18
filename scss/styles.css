@@ -249,6 +249,19 @@ form button {
 #panels .panel-rigth .panel-rigth-content .list-categories li {
   margin-bottom: 0.5rem;
 }
+#panels .panel-rigth .panel-rigth-content .list-categories li:hover {
+  text-decoration: underline;
+}
+#panels .panel-rigth .panel-rigth-content .recent-post-flex a {
+  font-size: 12px;
+}
+#panels .panel-rigth .panel-rigth-content .recent-post-flex a:hover {
+  text-decoration: underline;
+}
+#panels .panel-rigth .panel-rigth-content .recent-post-flex h4 {
+  margin-top: 1rem;
+  font-size: 12px;
+}
 
 #panels2 {
   width: 85%;
@@ -275,6 +288,32 @@ form button {
 #panels2 .panel-rigth2 .panel-rigth-content .recent-post-flex img {
   width: 30%;
   margin-bottom: 2rem;
+}
+#panels2 .panel-rigth2 .panel-rigth-content .recent-post-flex a {
+  font-size: 12px;
+}
+#panels2 .panel-rigth2 .panel-rigth-content .recent-post-flex a:hover {
+  text-decoration: underline;
+}
+#panels2 .panel-rigth2 .panel-rigth-content .recent-post-flex h4 {
+  margin-top: 1rem;
+  font-size: 12px;
+}
+#panels2 .panel-rigth2 .panel-rigth-content h2 {
+  margin-bottom: 1rem;
+  font-weight: 300;
+}
+#panels2 .panel-rigth2 .panel-rigth-content .categories {
+  margin: 1rem 0;
+}
+#panels2 .panel-rigth2 .panel-rigth-content .list-categories {
+  padding: 1rem;
+}
+#panels2 .panel-rigth2 .panel-rigth-content .list-categories li {
+  margin-bottom: 0.5rem;
+}
+#panels2 .panel-rigth2 .panel-rigth-content .list-categories li:hover {
+  text-decoration: underline;
 }
 
 #contact form .flexbox {
