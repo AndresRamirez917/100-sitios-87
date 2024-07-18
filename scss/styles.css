@@ -68,6 +68,8 @@ ul {
 
 .btn-1 {
   background: blue;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
 .btn-1:hover {
@@ -246,6 +248,10 @@ form button {
 #panels2 .panel-left2 img {
   width: 50%;
   height: 60%;
+}
+#panels2 .panel-left2 p {
+  text-align: justify;
+  margin-bottom: 1rem;
 }
 #panels2 .panel-rigth2 {
   flex: 1;

@@ -71,6 +71,7 @@ ul {
 
 .btn-1 {
     background: blue;
+    width: fit-content;
 }
 
 .btn-1:hover {
@@ -271,6 +272,10 @@ form {
             img {
                 width: 50%;
                 height: 60%;
+            }
+            p {
+                text-align: justify;
+                margin-bottom: 1rem;
             }
     }
     .panel-rigth2 {
