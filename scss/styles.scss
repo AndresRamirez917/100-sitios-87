@@ -13,12 +13,12 @@ html, body {
     scroll-behavior: smooth;
 }
 
-.container {
-    max-width: 1300px;
-    margin: 0 auto;
-    padding: 0 30px;
-    overflow: auto;
-}
+// .container {
+//     max-width: 1300px;
+//     margin: 0 auto;
+//     padding: 0 30px;
+//     overflow: auto;
+// }
 
 a {
     text-decoration: none;
@@ -116,9 +116,9 @@ form {
     }
 }
 
-// img {
-//     max-width: 100%;
-// }
+ img {
+     max-width: 100%;
+ }
 
 //mainheader
 #mainheader {
@@ -211,9 +211,6 @@ form {
                 background-position: center;
                 background-repeat: no-repeat;
                 background-size: cover;
-                width: 30%;
-                height: 70dvh;
-
         }
     }
 }

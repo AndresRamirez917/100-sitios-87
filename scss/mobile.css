@@ -1,5 +1,7 @@
 #mainheader {
   width: 100%;
+  text-align: center;
+  margin: 0 auto;
 }
 #mainheader .banner-1 img {
   height: 100px;
@@ -15,13 +17,30 @@
 #mainheader .banner-2 .banner-2-flex .subnav {
   display: inline-block;
 }
+#mainheader .navbar {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+}
+#mainheader .navbar ul {
+  text-align: center;
+  margin: 0 auto;
+}
+#mainheader .navbar ul li {
+  margin: 0 auto;
+}
 
 #showcase .showcase-row {
   display: block;
 }
 #showcase .showcase-row .flexbox-1, #showcase .showcase-row .flexbox-2, #showcase .showcase-row .flexbox-3 {
-  width: 100%;
-  margin-bottom: 1rem;
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+#showcase .showcase-row .flexbox-1 a, #showcase .showcase-row .flexbox-2 a, #showcase .showcase-row .flexbox-3 a {
+  margin: 0;
+  margin-top: 25rem;
 }
 
 #banner-3 img {
@@ -34,4 +53,7 @@
 }
 #panels .container .contenedor .panel-left {
   display: block;
+}
+#panels .container .panel-rigth .panel-rigth-content .img-content {
+  width: 100%;
 }/*# sourceMappingURL=mobile.css.map */

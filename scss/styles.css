@@ -10,13 +10,6 @@ html, body {
   scroll-behavior: smooth;
 }
 
-.container {
-  max-width: 1300px;
-  margin: 0 auto;
-  padding: 0 30px;
-  overflow: auto;
-}
-
 a {
   text-decoration: none;
   text-transform: capitalize;
@@ -113,6 +106,10 @@ form button {
   width: 100%;
 }
 
+img {
+  max-width: 100%;
+}
+
 #mainheader {
   width: 87%;
   margin: 0 auto;
@@ -202,8 +199,6 @@ form button {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 30%;
-  height: 70dvh;
 }
 
 #banner-3 {
