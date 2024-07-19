@@ -39,14 +39,14 @@
 #showcase {
     .showcase-row {
         display: block;
+        margin: 0 auto;
        .flexbox-1, .flexbox-2, .flexbox-3 {
-        width: 90%;
         margin: 0 auto;
         margin-bottom: 2rem;
-        a {
+          a {
             margin: 0;
-            margin-top: 25rem;
-        }
+            margin-top: 20rem;
+          } 
        }
     }
 }
