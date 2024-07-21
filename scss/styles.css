@@ -282,40 +282,40 @@ form button {
   display: block;
   margin: 0 auto;
 }
-#panels2 .panel-rigth2 {
-  width: 30%;
+#panels2 .panel-rigth {
+  width: 40%;
 }
-#panels2 .panel-rigth2 .panel-rigth-content .recent-post-flex {
+#panels2 .panel-rigth .panel-rigth-content .recent-post-flex {
   flex-direction: column;
 }
-#panels2 .panel-rigth2 .panel-rigth-content .recent-post-flex img {
+#panels2 .panel-rigth .panel-rigth-content .recent-post-flex img {
   width: 25%;
   margin-bottom: 2rem;
 }
-#panels2 .panel-rigth2 .panel-rigth-content .recent-post-flex a {
+#panels2 .panel-rigth .panel-rigth-content .recent-post-flex a {
   font-size: 12px;
 }
-#panels2 .panel-rigth2 .panel-rigth-content .recent-post-flex a:hover {
+#panels2 .panel-rigth .panel-rigth-content .recent-post-flex a:hover {
   text-decoration: underline;
 }
-#panels2 .panel-rigth2 .panel-rigth-content .recent-post-flex h4 {
+#panels2 .panel-rigth .panel-rigth-content .recent-post-flex h4 {
   margin-top: 1rem;
   font-size: 12px;
 }
-#panels2 .panel-rigth2 .panel-rigth-content h2 {
+#panels2 .panel-rigth .panel-rigth-content h2 {
   margin-bottom: 1rem;
   font-weight: 300;
 }
-#panels2 .panel-rigth2 .panel-rigth-content .categories {
+#panels2 .panel-rigth .panel-rigth-content .categories {
   margin: 1rem 0;
 }
-#panels2 .panel-rigth2 .panel-rigth-content .list-categories {
+#panels2 .panel-rigth .panel-rigth-content .list-categories {
   padding: 1rem;
 }
-#panels2 .panel-rigth2 .panel-rigth-content .list-categories li {
+#panels2 .panel-rigth .panel-rigth-content .list-categories li {
   margin-bottom: 0.5rem;
 }
-#panels2 .panel-rigth2 .panel-rigth-content .list-categories li:hover {
+#panels2 .panel-rigth .panel-rigth-content .list-categories li:hover {
   text-decoration: underline;
 }
 

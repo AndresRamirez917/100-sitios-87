@@ -67,13 +67,12 @@
 #panels2 .container .contenedor .panel-left2 img {
   width: 100%;
 }
-#panels2 .container .contenedor .panel-left2 .subtitle {
-  font-size: large;
-  text-align: justify;
+#panels2 .container .contenedor .panel-left2 .article-img {
+  width: 100%;
 }
-#panels2 .container .panel-rigth2 .panel-rigth-content img {
-  width: 450px;
+#panels2 .container .panel-rigth .panel-rigth-content .img-content {
+  width: 400px;
 }
-#panels2 .container .panel-rigth2 .panel-rigth-content .recent-post-flex .flex img {
-  width: 120px;
+#panels2 .container .panel-rigth .panel-rigth-content .recent-post-flex .flex img {
+  width: 100%;
 }/*# sourceMappingURL=mobile.css.map */

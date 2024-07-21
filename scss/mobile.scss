@@ -85,26 +85,23 @@
         .contenedor {
             .panel-left2 {
                 display: block;
-               img {
-                width: 100%;
-               }
-                .subtitle {
-                    font-size:large;
-                    text-align: justify;
+                img {
+                    width: 100%;
+                }
+                .article-img {
+                    width: 100%;
                 }
             }
         }
-        .panel-rigth2 {
+        .panel-rigth {
             .panel-rigth-content {
-
-                    img {
-                        width: 450px;
-                    }
-                
+                .img-content { 
+                        width: 400px;   
+                }
                 .recent-post-flex {
                     .flex {
                         img {
-                            width: 120px;
+                            width: 100%;
                         }
                     }
                 }
