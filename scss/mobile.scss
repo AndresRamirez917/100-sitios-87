@@ -1,6 +1,6 @@
 //mainheader
 #mainheader {
-    width: 100%;
+    width: 90%;
     text-align: center;
     margin: 0 auto;
     .banner-1 {
@@ -9,10 +9,15 @@
        }
     }
     .banner-2 {
+        width: 90%;
+
         .banner-2-flex {
             display: block;
             margin: 0 auto;
             text-align: center;
+            img {
+                width: 110%;
+            }
             .logo {
                 width: 100%;
             }
@@ -55,7 +60,7 @@
 #banner-3 {
     img {
         width: 100%;
-        height: 100px;
+        // height: 100px;
     }
 }
 
@@ -79,33 +84,70 @@
 }
 
 //panels2
-#panels2 {
+#panels2 { 
     .container {
         display: block;
+        width: 100%;
+        margin: 0 auto;
         .contenedor {
             .panel-left2 {
-                display: block;
-                img {
-                    width: 100%;
-                }
-                .article-img {
-                    width: 100%;
-                }
-            }
-        }
-        .panel-rigth {
-            .panel-rigth-content {
-                .img-content { 
-                        width: 400px;   
-                }
-                .recent-post-flex {
+             img {
+                width: 100%;
+             }
+                .panel-left2-flex  {
                     .flex {
+                        display: block;
                         img {
                             width: 100%;
                         }
                     }
                 }
+                .flexbox-content {
+                    p {
+                        text-align: justify;
+                    }
+                }
             }
+        }
+        .panel-rigth {
+            width: 100%;
+                .panel-rigth-content {
+                    h2 {
+                        width: 200px;
+                    }
+                    .img-content { 
+                            width: 100%;   
+                    }
+                    .recent-post-flex {
+                        .flex {
+                            margin-bottom: 1rem;
+                            img {
+                                width: 30%;
+                            }
+
+                        }
+                    }
+                }
+            // .panel-rigth-content {
+            //     h2 {
+            //         width: 200px;
+            //     }
+            //     .img-content { 
+            //             width: 440px;   
+            //     }
+            //     .recent-post-flex {
+            //         .flex {
+            //             img {
+            //                 width: 70%;
+            //             }
+            //             .flexbox {
+            //                 a {
+            //                     width: 150px;
+            //                 }
+            //             }
+            //         }
+            //     }
+            // }
         }
     }
 }

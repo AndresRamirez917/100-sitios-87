@@ -193,7 +193,6 @@ form button {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100%;
 }
 
 #banner-3 {
@@ -219,13 +218,6 @@ form button {
 #panels .panel-left .flexbox p {
   margin: 1rem 0;
 }
-#panels .panel-rigth .panel-rigth-content .recent-post-flex {
-  flex-direction: column;
-}
-#panels .panel-rigth .panel-rigth-content .recent-post-flex img {
-  width: 30%;
-  margin-bottom: 2rem;
-}
 #panels .panel-rigth .panel-rigth-content h2 {
   margin-bottom: 1rem;
   font-weight: 300;
@@ -237,10 +229,17 @@ form button {
   padding: 1rem;
 }
 #panels .panel-rigth .panel-rigth-content .list-categories li {
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
 }
 #panels .panel-rigth .panel-rigth-content .list-categories li:hover {
   text-decoration: underline;
+}
+#panels .panel-rigth .panel-rigth-content .recent-post-flex {
+  flex-direction: column;
+}
+#panels .panel-rigth .panel-rigth-content .recent-post-flex img {
+  width: 30%;
+  margin-bottom: 2rem;
 }
 #panels .panel-rigth .panel-rigth-content .recent-post-flex a {
   font-size: 12px;
@@ -260,27 +259,15 @@ form button {
 #panels2 .container {
   gap: 150px;
 }
-#panels2 .container .contenedor {
-  width: 90%;
-}
-#panels2 .container .contenedor .panel-left2 {
+#panels2 .container .contenedor .panel-left2 .panel-left2-flex .flex {
   margin-bottom: 2rem;
 }
-#panels2 .container .contenedor .panel-left2 img {
-  width: 40%;
-}
-#panels2 .container .contenedor .panel-left2 p {
-  text-align: justify;
-  margin-bottom: 1rem;
-}
-#panels2 .container .contenedor .panel-left2 .subtitle {
-  font-size: 2rem;
-  font-weight: 300;
-}
-#panels2 .container .contenedor .panel-left2 .article-img {
+#panels2 .container .contenedor .panel-left2 .panel-left2-flex .flex img {
   width: 50%;
-  display: block;
-  margin: 0 auto;
+}
+#panels2 .container .contenedor .panel-left2 .panel-left2-flex .flex p {
+  margin: 1rem 0;
+  text-align: justify;
 }
 #panels2 .panel-rigth {
   width: 40%;
