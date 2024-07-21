@@ -70,4 +70,10 @@
 #panels2 .container .contenedor .panel-left2 .subtitle {
   font-size: large;
   text-align: justify;
+}
+#panels2 .container .panel-rigth2 .panel-rigth-content img {
+  width: 450px;
+}
+#panels2 .container .panel-rigth2 .panel-rigth-content .recent-post-flex .flex img {
+  width: 120px;
 }/*# sourceMappingURL=mobile.css.map */

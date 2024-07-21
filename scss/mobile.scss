@@ -85,12 +85,28 @@
         .contenedor {
             .panel-left2 {
                 display: block;
-                img {
-                    width: 100%;
-                }
+               img {
+                width: 100%;
+               }
                 .subtitle {
                     font-size:large;
                     text-align: justify;
+                }
+            }
+        }
+        .panel-rigth2 {
+            .panel-rigth-content {
+
+                    img {
+                        width: 450px;
+                    }
+                
+                .recent-post-flex {
+                    .flex {
+                        img {
+                            width: 120px;
+                        }
+                    }
                 }
             }
         }

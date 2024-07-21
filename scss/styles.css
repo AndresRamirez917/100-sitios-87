@@ -106,23 +106,17 @@ form button {
   width: 100%;
 }
 
-img {
-  max-width: 100%;
-}
-
 #mainheader {
-  width: 87%;
+  width: 90%;
   margin: 0 auto;
 }
 #mainheader .banner-1 img {
   width: 100%;
   margin: 1rem 0;
 }
-#mainheader .banner-2 {
-  width: 95%;
-  margin: 0 auto;
-}
 #mainheader .banner-2 .banner-2-flex {
+  width: 100%;
+  margin: 0 auto;
   justify-content: space-between;
 }
 #mainheader .banner-2 .banner-2-flex .subnav {
@@ -199,6 +193,7 @@ img {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  width: 100%;
 }
 
 #banner-3 {
@@ -259,36 +254,42 @@ img {
 }
 
 #panels2 {
-  width: 85%;
+  width: 90%;
   margin: 0 auto;
 }
-#panels2 .panel-left2 {
-  flex: 3;
+#panels2 .container {
+  gap: 150px;
+}
+#panels2 .container .contenedor {
+  width: 90%;
+}
+#panels2 .container .contenedor .panel-left2 {
   margin-bottom: 2rem;
 }
-#panels2 .panel-left2 img {
-  width: 50%;
-  height: 60%;
+#panels2 .container .contenedor .panel-left2 img {
+  width: 40%;
 }
-#panels2 .panel-left2 p {
+#panels2 .container .contenedor .panel-left2 p {
   text-align: justify;
   margin-bottom: 1rem;
 }
-#panels2 .panel-left2 .subtitle {
-  font-size: 3rem;
+#panels2 .container .contenedor .panel-left2 .subtitle {
+  font-size: 2rem;
   font-weight: 300;
 }
-#panels2 .panel-left2 .article-img {
-  width: 80%;
+#panels2 .container .contenedor .panel-left2 .article-img {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
 }
 #panels2 .panel-rigth2 {
-  flex: 1;
+  width: 30%;
 }
 #panels2 .panel-rigth2 .panel-rigth-content .recent-post-flex {
   flex-direction: column;
 }
 #panels2 .panel-rigth2 .panel-rigth-content .recent-post-flex img {
-  width: 30%;
+  width: 25%;
   margin-bottom: 2rem;
 }
 #panels2 .panel-rigth2 .panel-rigth-content .recent-post-flex a {
