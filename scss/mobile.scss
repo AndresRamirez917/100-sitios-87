@@ -77,3 +77,22 @@
         }
     }
 }
+
+//panels2
+#panels2 {
+    .container {
+        display: block;
+        .contenedor {
+            .panel-left2 {
+                display: block;
+                img {
+                    width: 100%;
+                }
+                .subtitle {
+                    font-size:large;
+                    text-align: justify;
+                }
+            }
+        }
+    }
+}

@@ -56,4 +56,18 @@
 }
 #panels .container .panel-rigth .panel-rigth-content .img-content {
   width: 100%;
+}
+
+#panels2 .container {
+  display: block;
+}
+#panels2 .container .contenedor .panel-left2 {
+  display: block;
+}
+#panels2 .container .contenedor .panel-left2 img {
+  width: 100%;
+}
+#panels2 .container .contenedor .panel-left2 .subtitle {
+  font-size: large;
+  text-align: justify;
 }/*# sourceMappingURL=mobile.css.map */
